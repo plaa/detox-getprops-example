@@ -20,7 +20,7 @@
     "@react-native-community/eslint-config": "^0.0.3",
     "babel-jest": "^24.1.0",
     "detox": "^14.4.1",
-    "detox-getprops": "0.0.1",
+    "detox-getprops": "0.1.0",
     "jest": "^24.1.0",
     "metro-react-native-babel-preset": "^0.51.1",
     "react-test-renderer": "16.8.1"
