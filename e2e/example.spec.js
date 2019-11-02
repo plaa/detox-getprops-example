@@ -10,4 +10,9 @@ describe('Example', () => {
     const text = await getText(element(by.id('heading')));
     expect(text).toEqual('Step One');
   });
+
+  it('should fetch element properties (platform-dependent)', async () => {
+    const props = await getProps(element(by.id('heading')));
+    console.log('PROPS: ', props);
+  });
 });
