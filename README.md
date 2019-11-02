@@ -1,18 +1,5 @@
-# detox-getprops
+# detox-getprops-example
 
-Allows fetching an element text contents using [Detox](https://github.com/wix/Detox).
+An example React Native app demonstrating use of [detox-getprops](https://github.com/plaa/detox-getprops-example).
 
-Installation:
-
-```
-npm install --save-dev detox detox-getprops
-```
-
-Usage:
-
-```
-const { getText } = require('detox-getprops');
-
-const text = getText(element(by.id('heading')));
-expect(text).toEqual('Step One');
-```
+See [e2e/example.spec.js](https://github.com/plaa/detox-getprops-example/blob/master/e2e/example.spec.js) for usage examples.
